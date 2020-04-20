@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/biezhi/gorm-paginator/pagination"
 	"github.com/gin-gonic/gin"
+	"github.com/ivan-avalos/gorm-paginator/pagination"
 	"github.com/jinzhu/gorm"
 	_ "github.com/mattn/go-sqlite3"
 )

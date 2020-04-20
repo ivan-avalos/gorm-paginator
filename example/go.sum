@@ -1,11 +1,13 @@
-github.com/biezhi/gorm-paginator v0.0.0-20190124081913-54ada098dbc1 h1:NvwGCDDGv8Ax8SpwMhgujsrCr9gaSs5IWp90PP/PtSQ=
-github.com/biezhi/gorm-paginator v0.0.0-20190124081913-54ada098dbc1/go.mod h1:Ojq6HkxEz6814vSw/+tYrn79UpRl5qH6CsA1qxl/CgI=
 github.com/gin-contrib/sse v0.0.0-20170109093832-22d885f9ecc7 h1:AzN37oI0cOS+cougNAV9szl6CVoj2RYwzS3DpUQNtlY=
 github.com/gin-contrib/sse v0.0.0-20170109093832-22d885f9ecc7/go.mod h1:VJ0WA2NBN22VlZ2dKZQPAPnyWw5XTlK1KymzLKsr59s=
 github.com/gin-gonic/gin v1.3.0 h1:kCmZyPklC0gVdL728E6Aj20uYBJV93nj/TkwBTKhFbs=
 github.com/gin-gonic/gin v1.3.0/go.mod h1:7cKuhb5qV2ggCFctp2fJQ+ErvciLZrIeoOSOm6mUr7Y=
 github.com/golang/protobuf v1.2.0 h1:P3YflyNX/ehuJFLhxviNdFxQPkGK5cDcApsge1SqnvM=
 github.com/golang/protobuf v1.2.0/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
+github.com/ivan-avalos/gorm-paginator v0.0.0-20190124081913-54ada098dbc1 h1:R6+iwuHYNhoQSnjatWolgV533VTNYcoy4G5XJiKRXP4=
+github.com/ivan-avalos/gorm-paginator v0.0.0-20190124081913-54ada098dbc1/go.mod h1:EyP/6uFl2du527dxsLVTlJxJ+/p2Sq23JCOqtovI0dM=
+github.com/ivan-avalos/gorm-paginator/pagination v0.0.0-20200420171620-44b491c88153 h1:vsDijdUdZA21w3nu9mvVY0x2noK8WYydkVTVsFrx8sw=
+github.com/ivan-avalos/gorm-paginator/pagination v0.0.0-20200420171620-44b491c88153/go.mod h1:NwEPAUGUTMubaSg37mTRPDA15wgUportxs0zsmNL1Pw=
 github.com/jinzhu/gorm v1.9.2 h1:lCvgEaqe/HVE+tjAR2mt4HbbHAZsQOv3XAZiEZV37iw=
 github.com/jinzhu/gorm v1.9.2/go.mod h1:Vla75njaFJ8clLU1W44h34PjIkijhjHIYnZxMqCdxqo=
 github.com/jinzhu/inflection v0.0.0-20180308033659-04140366298a h1:eeaG9XMUvRBYXJi4pg1ZKM7nxc5AfXfojeLLW7O5J3k=
