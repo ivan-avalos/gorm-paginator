@@ -23,6 +23,8 @@ type Paginator struct {
 	Offset      int         `json:"offset"`
 	Limit       int         `json:"limit"`
 	Page        int         `json:"page"`
+	FirstPage   int         `json:"first_page"`
+	LastPage    int         `json:"last_page"`
 	PrevPage    int         `json:"prev_page"`
 	NextPage    int         `json:"next_page"`
 	Error       error       `json:"-"`
@@ -79,6 +81,13 @@ func Paging(p *Param, result interface{}) *Paginator {
 	paginator.Offset = offset
 	paginator.Limit = p.Limit
 	paginator.TotalPage = int(math.Ceil(float64(count) / float64(p.Limit)))
+	paginator.FirstPage = 1
+
+	if paginator.TotalPage > 0 {
+		paginator.LastPage = paginator.TotalPage
+	} else {
+		paginator.LastPage = paginator.FirstPage
+	}
 
 	if p.Page > 1 {
 		paginator.PrevPage = p.Page - 1
@@ -91,6 +100,7 @@ func Paging(p *Param, result interface{}) *Paginator {
 	} else {
 		paginator.NextPage = p.Page + 1
 	}
+
 	return &paginator
 }
 
